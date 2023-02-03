@@ -11,6 +11,4 @@ while 1:
     serverSocket.sendto(bytes(l,"utf-8"),clientAddress)
     print ('\nSent contents of ', end = ' ')
     print (sentence)
-# for i in sentence:
-# print (str(i), end = '')
     file.close()
